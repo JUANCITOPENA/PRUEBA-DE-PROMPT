@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Web</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Portafolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Sobre Mí</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience">Experiencia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <button id="darkModeToggle" class="btn btn-outline-light">Modo Oscuro</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="d-flex align-items-center justify-content-center text-center">
+        <div>
+            <img src="https://cdn3.iconfinder.com/data/icons/data-science-set-01-2/65/20-512.png" alt="Foto del Desarrollador" class="img-thumbnail rounded-circle mb-3">
+            <h1 class="animated-name">Nombre del Desarrollador</h1>
+            <p class="lead">Desarrollador Full Stack | Especialista en IA</p>
+        </div>
+    </section>
+
+    <section id="about" class="container my-5">
+        <h2>Sobre Mí</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
+    </section>
+
+    <section id="projects" class="container my-5">
+        <h2>Proyectos</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card project-card">
+                    <img src="https://www.tucanit.com/wp-content/uploads/2021/10/almadraba.jpg" class="card-img-top img-thumbnail" alt="Proyecto 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Proyecto 1</h5>
+                        <p class="card-text">Descripción del proyecto 1.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card project-card">
+                    <img src="https://www.tucanit.com/wp-content/uploads/2021/10/oficina.jpg" class="card-img-top img-thumbnail" alt="Proyecto 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Proyecto 2</h5>
+                        <p class="card-text">Descripción del proyecto 2.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card project-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMIjzhc7m8zFXXhW09E_ZnBNVNRCAwdKZHAQ&s" class="card-img-top img-thumbnail" alt="Proyecto 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Proyecto 3</h5>
+                        <p class="card-text">Descripción del proyecto 3.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="container my-5">
+        <h2>Experiencia Profesional</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card experience-card">
+                    <div class="card-body">
+                        <h5 class="card-title">Experiencia 1</h5>
+                        <p class="card-text">Descripción de la experiencia 1.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card experience-card">
+                    <div class="card-body">
+                        <h5 class="card-title">Experiencia 2</h5>
+                        <p class="card-text">Descripción de la experiencia 2.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card experience-card">
+                    <div class="card-body">
+                        <h5 class="card-title">Experiencia 3</h5>
+                        <p class="card-text">Descripción de la experiencia 3.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="container my-5">
+        <h2>Contacto</h2>
+        <p>Puedes contactarme a través de mis redes sociales:</p>
+        <div class="social-icons">
+            <a href="#" class="text-decoration-none"><i class="fab fa-linkedin fa-2x"></i></a>
+            <a href="#" class="text-decoration-none"><i class="fab fa-github fa-2x"></i></a>
+            <a href="#" class="text-decoration-none"><i class="fab fa-twitter fa-2x"></i></a>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
