@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portafolio Web - [Tu Nombre]</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <a class="navbar-brand" href="#">Mi Portafolio</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#homepage">Inicio <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#sobremi">Sobre Mí</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#proyectos">Proyectos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#experiencia">Experiencia</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+            <li class="nav-item">
+                <button id="dark-mode-toggle" class="btn btn-dark"><i class="fas fa-moon"></i> Modo Dark</button>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<header id="homepage" class="homepage-section gradient-animation">
+    <div class="container text-center">
+        <img src="https://cdn3.iconfinder.com/data/icons/data-science-set-01-2/65/20-512.png" alt="Foto de Desarrollador" class="img-thumbnail rounded-circle developer-photo">
+        <h1 class="developer-name animated-name"> <i class="fa-solid fa-code"></i>  [Tu Nombre de Desarrollador]</h1>
+        <p class="developer-description">Desarrollador Frontend Apasionado | Creador de Experiencias Web Innovadoras</p>
+        <div class="social-icons">
+            <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="#" target="_blank"><i class="fas fa-envelope"></i></a>
+        </div>
+    </div>
+</header>
+
+<section id="sobremi" class="section-padding">
+    <div class="container">
+        <div class="section-title text-center">
+            <h2>Sobre Mí <i class="fas fa-user-astronaut"></i></h2>
+            <p>Conoce un poco más sobre mi trayectoria y pasión por el desarrollo web.</p>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <p>Soy un desarrollador frontend con [Número] años de experiencia en la creación de interfaces web interactivas y atractivas. Mi enfoque se centra en ofrecer soluciones que no solo cumplen con los requisitos técnicos, sino que también proporcionan una experiencia de usuario excepcional. </p>
+                <p>Apasionado por las nuevas tecnologías y tendencias en el mundo del desarrollo web, me mantengo en constante aprendizaje para aplicar las mejores prácticas y herramientas en cada proyecto. Mi objetivo es transformar ideas en realidad digital, creando productos que sean tanto funcionales como visualmente impactantes.</p>
+            </div>
+            <div class="col-md-6">
+                <h3>Habilidades Clave <i class="fas fa-tools"></i></h3>
+                <ul class="list-unstyled">
+                    <li><i class="fas fa-check-circle"></i> HTML5, CSS3, JavaScript (ES6+)</li>
+                    <li><i class="fas fa-check-circle"></i> Frameworks CSS: Bootstrap, Tailwind CSS</li>
+                    <li><i class="fas fa-check-circle"></i> Javascript Frameworks: React, Angular, Vue.js (Básico)</li>
+                    <li><i class="fas fa-check-circle"></i> Control de Versiones: Git & GitHub</li>
+                    <li><i class="fas fa-check-circle"></i> Diseño Responsive & Mobile-First</li>
+                    <li><i class="fas fa-check-circle"></i> Optimización SEO & Accesibilidad Web</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="proyectos" class="section-padding bg-light">
+    <div class="container">
+        <div class="section-title text-center">
+            <h2>Proyectos <i class="fas fa-laptop-code"></i></h2>
+            <p>Algunos de los proyectos destacados en los que he trabajado.</p>
+        </div>
+        <div class="card-deck">
+            <div class="card project-card">
+                <img src="https://www.tucanit.com/wp-content/uploads/2021/10/almadraba.jpg" class="card-img-top img-thumbnail" alt="Proyecto 1">
+                <div class="card-body">
+                    <h5 class="card-title">Dashboard de Análisis de Datos</h5>
+                    <p class="card-text">Desarrollo de un dashboard interactivo para la visualización y análisis de grandes volúmenes de datos. Utilizando React y Chart.js para una experiencia de usuario intuitiva y eficaz.</p>
+                    <a href="#" class="btn btn-primary" target="_blank">Ver Proyecto <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="card project-card">
+                <img src="https://www.tucanit.com/wp-content/uploads/2021/10/oficina.jpg" class="card-img-top img-thumbnail" alt="Proyecto 2">
+                <div class="card-body">
+                    <h5 class="card-title">E-commerce Responsivo</h5>
+                    <p class="card-text">Creación de una tienda online completamente responsive, enfocada en la experiencia del usuario móvil. Implementación de Bootstrap y JavaScript para un diseño atractivo y funcional.</p>
+                    <a href="#" class="btn btn-primary" target="_blank">Ver Proyecto <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="card project-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMIjzhc7m8zFXXhW09E_ZnBNVNRCAwdKZHAQ&s" class="card-img-top img-thumbnail" alt="Proyecto 3">
+                <div class="card-body">
+                    <h5 class="card-title">Landing Page Dinámica</h5>
+                    <p class="card-text">Diseño y desarrollo de una landing page dinámica y optimizada para SEO, con animaciones y efectos visuales para captar la atención del usuario. Utilización de HTML5, CSS3 y JavaScript.</p>
+                    <a href="#" class="btn btn-primary" target="_blank">Ver Proyecto <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="experiencia" class="section-padding">
+    <div class="container">
+        <div class="section-title text-center">
+            <h2>Experiencia Profesional <i class="fas fa-briefcase"></i></h2>
+            <p>Mi trayectoria en el mundo del desarrollo y las empresas en las que he colaborado.</p>
+        </div>
+        <div class="card-deck">
+            <div class="card experience-card">
+                <div class="card-body">
+                    <h5 class="card-title">Desarrollador Frontend Senior</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Empresa Tech Innovadora - 2020 - Presente</h6>
+                    <p class="card-text">Lideré el desarrollo frontend de aplicaciones web complejas, mejorando la experiencia del usuario y optimizando el rendimiento. Colaboré estrechamente con equipos de diseño y backend para entregar soluciones integrales.</p>
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-caret-right"></i> Desarrollo de interfaces de usuario con React.</li>
+                        <li><i class="fas fa-caret-right"></i> Optimización de rendimiento web y SEO.</li>
+                        <li><i class="fas fa-caret-right"></i> Mentoría de desarrolladores junior.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card experience-card">
+                <div class="card-body">
+                    <h5 class="card-title">Desarrollador Web Junior</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Startup Tecnológica - 2018 - 2020</h6>
+                    <p class="card-text">Participé en el desarrollo de diversas funcionalidades para la plataforma web de la startup, trabajando principalmente con HTML, CSS y JavaScript. Adquirí experiencia en el trabajo en equipo y metodologías ágiles.</p>
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-caret-right"></i> Implementación de nuevas características frontend.</li>
+                        <li><i class="fas fa-caret-right"></i> Mantenimiento y mejora de código existente.</li>
+                        <li><i class="fas fa-caret-right"></i> Colaboración en pruebas y depuración.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card experience-card">
+                <div class="card-body">
+                    <h5 class="card-title">Practicante de Desarrollo Web</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Agencia de Marketing Digital - 2017 - 2018</h6>
+                    <p class="card-text">Realicé mis prácticas profesionales en una agencia de marketing, donde apoyé en la creación de landing pages y sitios web para clientes. Aprendí sobre diseño web, SEO básico y la importancia de la experiencia del usuario.</p>
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-caret-right"></i> Diseño y maquetación de landing pages.</li>
+                        <li><i class="fas fa-caret-right"></i> Optimización de imágenes y contenido web.</li>
+                        <li><i class="fas fa-caret-right"></i> Apoyo en proyectos de desarrollo web.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contacto" class="section-padding bg-light">
+    <div class="container">
+        <div class="section-title text-center">
+            <h2>Contacto <i class="fas fa-envelope"></i></h2>
+            <p>¡Hablemos! No dudes en contactarme para cualquier consulta o oportunidad.</p>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="nombre" placeholder="Tu Nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" id="email" placeholder="Tu Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" id="mensaje" rows="5" placeholder="Tu Mensaje" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Enviar Mensaje <i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer bg-dark text-white text-center py-3">
+    <p>&copy; 2025 [Tu Nombre]. Todos los derechos reservados.</p>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
